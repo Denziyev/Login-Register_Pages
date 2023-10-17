@@ -7,4 +7,5 @@ Register Page:
 
 Login Page:
 
-![Uploading image.png…]()
+![image](https://github.com/Denziyev/Login-Register_Pages/assets/125345130/51cc7a21-a583-46f9-b9ad-31e56630a05e)
+
