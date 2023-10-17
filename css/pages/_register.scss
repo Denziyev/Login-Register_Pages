@@ -1,0 +1,155 @@
+.shadow1 {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#register {
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+    .clipboard-div {
+        width: 568px;
+        background-color: #fff;
+        clip-path: polygon(50% 0, 100% 11%, 100% 89%, 50% 100%, 0 89%, 0 11%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .tittle {
+            width: 80%;
+            height: 55px;
+            margin-top: 62px;
+
+            p {
+                color: #000;
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        hr {
+            width: 70%;
+            height: 1px;
+            background: #000;
+            margin-bottom: 30px;
+            margin-top: 8px;
+        }
+
+        form {
+
+            width: 70%;
+
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 23px;
+
+                label {
+                    height: 30px;
+                    color: #000;
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                input {
+                    height: 51px;
+                    border-radius: 10px;
+                    background: #FEFEFE;
+                    border: none;
+
+                    &:focus {
+                        outline: 3px solid #9999FF;
+                        padding: 3px 10px;
+                    }
+                }
+
+
+
+
+            }
+
+            .RegisterBtn {
+                background-color: #2871AA;
+                color: white;
+                margin-top: 0px;
+                width: 70%;
+            }
+
+            .RegisterBtn:hover {
+                background-color: #F4F4F4;
+                color: #2871AA;
+
+            }
+
+
+        }
+
+        #haveanyaccount {
+            width: 209px;
+            height: 22px;
+            color: #000;
+            margin-top: 10px;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .SignInBtn {
+            background-color: transparent;
+            color: #2871AA;
+            cursor: auto;
+            margin-top: 0px;
+
+            span {
+
+                font-size: 16px;
+            }
+
+            span:hover {
+                color: #000;
+                cursor: pointer;
+            }
+        }
+
+        .socialnetworks {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 70px;
+
+            .socialitem {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                cursor: pointer;
+
+                &:hover{
+                    scale: 1.05;
+                }
+                img {
+                    width: 26.23px;
+                    height: 25.681px;
+                }
+            }
+
+            
+        }
+
+    }
+}

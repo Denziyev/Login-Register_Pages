@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 174px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  display: flex;
+  line-height: 31px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  margin: 10px auto;
+  text-align: center;
+}
+button span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button {
+  text-decoration: none;
+  width: 174px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  display: flex;
+  line-height: 31px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  margin: 10px auto;
+  text-align: center;
+}
+.button span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+body {
+  background: url("../../Images/backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #signin {
+  margin-top: 17vh;
+  display: flex;
+  justify-content: center;
+}
+body #signin .clipboard-div {
+  width: 419px;
+  height: 476px;
+  background-color: #fff;
+  -webkit-clip-path: polygon(50% 0, 100% 11%, 100% 89%, 50% 100%, 0 89%, 0 11%);
+          clip-path: polygon(50% 0, 100% 11%, 100% 89%, 50% 100%, 0 89%, 0 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #signin .clipboard-div .tittle {
+  width: 80%;
+  height: 55px;
+  margin-top: 52px;
+}
+body #signin .clipboard-div .tittle p {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body #signin .clipboard-div hr {
+  width: 70%;
+  height: 1px;
+  background: #000;
+  margin-bottom: 36px;
+}
+body #signin .clipboard-div form {
+  width: 70%;
+}
+body #signin .clipboard-div form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+body #signin .clipboard-div form .form-group label {
+  height: 28px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body #signin .clipboard-div form .form-group input {
+  height: 40px;
+  border-radius: 10px;
+  background: #F4F4F4;
+  border: none;
+}
+body #signin .clipboard-div form .form-group input:focus {
+  outline: 3px solid #9999FF;
+  padding: 3px 10px;
+}
+body #signin .clipboard-div form .SignInBtn {
+  background-color: #2871AA;
+  color: white;
+}
+body #signin .clipboard-div form .SignInBtn:hover {
+  background-color: #F4F4F4;
+  color: #2871AA;
+}
+body #signin .clipboard-div .RegisterBtn {
+  background-color: transparent;
+  color: #2871AA;
+  cursor: auto;
+}
+body #signin .clipboard-div .RegisterBtn span {
+  font-size: 16px;
+}
+body #signin .clipboard-div .RegisterBtn span:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.createdby {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+.createdby a {
+  color: yellow;
+  font-weight: 800;
+  font-size: 22px;
+}
+.createdby a:hover {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: black;
+  cursor: pointer;
+}
+
+.shadow1 {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#register {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+#register .clipboard-div {
+  width: 568px;
+  background-color: #fff;
+  -webkit-clip-path: polygon(50% 0, 100% 11%, 100% 89%, 50% 100%, 0 89%, 0 11%);
+          clip-path: polygon(50% 0, 100% 11%, 100% 89%, 50% 100%, 0 89%, 0 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#register .clipboard-div .tittle {
+  width: 80%;
+  height: 55px;
+  margin-top: 62px;
+}
+#register .clipboard-div .tittle p {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#register .clipboard-div hr {
+  width: 70%;
+  height: 1px;
+  background: #000;
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
+#register .clipboard-div form {
+  width: 70%;
+}
+#register .clipboard-div form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+#register .clipboard-div form .form-group label {
+  height: 30px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#register .clipboard-div form .form-group input {
+  height: 51px;
+  border-radius: 10px;
+  background: #FEFEFE;
+  border: none;
+}
+#register .clipboard-div form .form-group input:focus {
+  outline: 3px solid #9999FF;
+  padding: 3px 10px;
+}
+#register .clipboard-div form .RegisterBtn {
+  background-color: #2871AA;
+  color: white;
+  margin-top: 0px;
+  width: 70%;
+}
+#register .clipboard-div form .RegisterBtn:hover {
+  background-color: #F4F4F4;
+  color: #2871AA;
+}
+#register .clipboard-div #haveanyaccount {
+  width: 209px;
+  height: 22px;
+  color: #000;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#register .clipboard-div .SignInBtn {
+  background-color: transparent;
+  color: #2871AA;
+  cursor: auto;
+  margin-top: 0px;
+}
+#register .clipboard-div .SignInBtn span {
+  font-size: 16px;
+}
+#register .clipboard-div .SignInBtn span:hover {
+  color: #000;
+  cursor: pointer;
+}
+#register .clipboard-div .socialnetworks {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+#register .clipboard-div .socialnetworks .socialitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+#register .clipboard-div .socialnetworks .socialitem:hover {
+  scale: 1.05;
+}
+#register .clipboard-div .socialnetworks .socialitem img {
+  width: 26.23px;
+  height: 25.681px;
+}
