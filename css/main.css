@@ -119,6 +119,7 @@ body #signin .clipboard-div form .form-group input {
 body #signin .clipboard-div form .form-group input:focus {
   outline: 3px solid #9999FF;
   padding: 3px 10px;
+  filter: none;
 }
 body #signin .clipboard-div form .SignInBtn {
   background-color: #2871AA;
@@ -227,6 +228,7 @@ body #signin .clipboard-div .RegisterBtn span:hover {
 #register .clipboard-div form .form-group input:focus {
   outline: 3px solid #9999FF;
   padding: 3px 10px;
+  filter: none;
 }
 #register .clipboard-div form .RegisterBtn {
   background-color: #2871AA;
@@ -281,7 +283,8 @@ body #signin .clipboard-div .RegisterBtn span:hover {
   cursor: pointer;
 }
 #register .clipboard-div .socialnetworks .socialitem:hover {
-  scale: 1.05;
+  border: 1px solid #EAEAEA;
+  box-shadow: none;
 }
 #register .clipboard-div .socialnetworks .socialitem img {
   width: 26.23px;
