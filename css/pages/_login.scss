@@ -65,11 +65,11 @@ body {
                         height: 40px;
                         border-radius: 10px;
                         background: #F4F4F4;
+                        padding: 3px 10px;
                         border: none;
 
                         &:focus {
                             outline: 3px solid #9999FF;
-                            padding: 3px 10px;
                             filter: none;
                         }
                     }

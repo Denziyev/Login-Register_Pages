@@ -114,11 +114,11 @@ body #signin .clipboard-div form .form-group input {
   height: 40px;
   border-radius: 10px;
   background: #F4F4F4;
+  padding: 3px 10px;
   border: none;
 }
 body #signin .clipboard-div form .form-group input:focus {
   outline: 3px solid #9999FF;
-  padding: 3px 10px;
   filter: none;
 }
 body #signin .clipboard-div form .SignInBtn {
@@ -224,10 +224,10 @@ body #signin .clipboard-div .RegisterBtn span:hover {
   border-radius: 10px;
   background: #FEFEFE;
   border: none;
+  padding: 3px 10px;
 }
 #register .clipboard-div form .form-group input:focus {
   outline: 3px solid #9999FF;
-  padding: 3px 10px;
   filter: none;
 }
 #register .clipboard-div form .RegisterBtn {
